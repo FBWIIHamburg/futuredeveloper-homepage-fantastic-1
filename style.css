@@ -228,7 +228,7 @@ body {
     width: 65vw;
     height: 72px;
     background-color: rgba(255, 0, 0, 0);
-    right: -65vw;
+    right: -64.5vw;
     transition: 2s;
     font-size: 20px;
     margin-top: 50px;
@@ -318,6 +318,14 @@ label>.fa-times {
 
 }
 @media only screen and (max-width:600px){
+  .main-a {
+    position: relative;
+    overflow: hidden;
+    width: 100vw;
+    height: 600vh;
+    background-size: cover;
+    background: #b8e994;
+}
     .logo{
         position: absolute;
         /* width: 100vw; */
@@ -334,7 +342,7 @@ label>.fa-times {
         width: 100vw;
         height: 75vh;
         background-color: rgba(255, 0, 0, 0);
-        right: -101vw;
+        right: -99vw;
         transition: 1s;
         font-size: 25px;
         margin-top: 25vh;
@@ -542,13 +550,21 @@ label>.fa-times {
     left: 60%;
   }
   @media only screen and (max-width: 1100px) {
+    .holder-h {
+      position: relative;
+      /* overflow: hidden; */
+      margin-top: 100vh;
+      margin-left: 5%;
+      width: 90%;
+      height: 120vh;
+    }
       .holder-h {
         position: relative;
         /* overflow: hidden; */
         /* margin-top: 2vh;
         margin-left: 0; */
         width: 100%;
-        height: auto;
+        height: 140vh;
       }
       .flip-container {
         width: 25% !important;
@@ -564,20 +580,20 @@ label>.fa-times {
         left: 50%;
       }
       .p13 {
-        top: 32vh;
+        top: 52vh;
         left: 5%;
       }
       .p14 {
-        top: 32vh;
+        top: 52vh;
         left: 50%;
       }
       
       .p15 {
-        top: 54vh;
+        top: 94vh;
         left: 5%;
       }
       .p16 {
-        top: 54vh;
+        top: 94vh;
         left: 50%;
       }
     }
@@ -591,7 +607,7 @@ label>.fa-times {
       /* margin-top: 2vh;
       margin-left: 0; */
       width: 100%;
-      height: auto;
+      height: 360vh;
     }
     .flip-container {
       width: 60% !important;
