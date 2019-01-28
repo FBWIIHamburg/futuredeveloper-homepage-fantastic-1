@@ -1,0 +1,630 @@
+/* Mohamad part  */
+/* ///////////////// */
+ /* the start of the Skills section */
+ .skills-m{
+    font-family: sans-serif;
+    background-color: #333;
+    max-width: 1000px;
+    margin: 60px auto;
+    color: white;  
+    min-height: 380px;;  
+    list-style: none; 
+    border-radius: 10px;
+}
+.bar-m{
+   animation: bar-m 1s ;
+}
+.skills-m li{
+margin: 20px ;
+}
+.bar-m{
+background: #353b48;
+display: block;
+height: 4px;
+width: 100%;
+box-shadow: 0 0 10px #2187e7b3;
+
+}
+.bar-m span{
+float: left;
+background: #2187e7;
+height: 4px;
+}
+.Html-m{
+   width: 90%;
+   animation: html 2s 0s;
+}
+.Css-m{
+width: 81%;
+animation: css 4s 0s;
+}
+.JavaScript-m{
+width: 69%;
+animation: js 6s 0s;
+}
+.JQuery-m{
+width: 66%;
+animation: jq 8s 0s;
+}
+.React-m{
+width: 45%;
+animation: react 9s 0s;   
+}
+.Notejs-m{
+   width: 70%;
+   animation: notejs 6s 0s;
+}
+@keyframes html{
+   0%{width: 0%}
+   100%{ width: 90%}
+}
+@keyframes css{
+   0%{width: 0%}
+   100%{ width: 81%}
+}
+@keyframes js{
+   0%{width: 0%}
+   100%{ width: 69%}
+}
+@keyframes jq{
+   0%{width: 0%}
+   100%{ width: 66%}
+}
+@keyframes react{
+   0%{width: 0%}
+   100%{ width: 45%}
+}
+@keyframes notejs{
+   0%{width: 0%}
+   100%{ width: 70%}
+}
+@keyframes bar-m{
+   0%{width: 0%}
+   100%{ width: 100%}
+
+}
+.percent-m{
+   float: right;
+   color: rgb(217, 255, 0);
+   opacity: 1;
+   animation: slowshow-m 3s;
+   animation-timing-function: cubic-bezier(0.950, 0.050, 0.795, 0.035);
+}
+@keyframes slowshow-m{
+   0%{opacity: 0;}
+   100%{ opacity: 1;
+   color: chartreuse;}
+
+} 
+/* End of the Skills section */
+/* the start of contact section */
+
+.contacts-m{
+   
+font-family: sans-serif;
+background-color: #333;
+max-width: 1000px;
+margin: 60px auto;
+color: white;  
+min-height: 380px;;  
+list-style: none; 
+border-radius: 10px;
+position: relative;
+display: flex;
+flex-direction:row;
+
+
+}
+.contact-container1-m{
+   border: 1px solid white;
+   flex:1;
+   flex-direction: row;
+  text-align: center;
+}
+.contactdci{
+   margin-top: 30px;  
+}
+.contact-container2-m{
+   flex-direction: row;
+   text-align: center;
+   flex:1;
+   border: 1px solid white;
+}
+iframe{
+   position: absolute;
+   width: 48%;
+   height: 220px;;
+   top: 150px;
+   left: 10px; 
+   border-radius: 20px;     
+}
+.contactus-m{
+   margin-top: 30px;  
+}
+.our-xing{
+   display: flex;
+   flex-direction: row;
+   margin-top: 20px;
+}
+.our-xing>div{
+   flex: 1;
+}
+.teamimg{
+   margin-top: 60px;  
+   display: flex;
+   flex-direction: row;
+   
+}
+
+.amir{
+   flex: 1;
+   height: 222px;
+   background-color: aquamarine;
+   border-radius: 20px;
+   margin-right: 1px;
+   margin-left: 1px;
+   background-image: url("./image/squirrl.jpg");
+}
+.mohamad{
+   flex: 1;
+   height: 222px;
+   background-color: rgb(104, 175, 151);
+   border-radius: 20px;
+   margin-right: 1px;
+   margin-left: 1px;
+   background-image: url("./image/racoon.jpg");
+}
+.hussin{
+   flex: 1;
+   height: 222px;
+   background-image: url("./image/coala.jpg");
+   
+   border-radius: 20px;
+   margin-right: 1px;
+   margin-left: 1px;
+}
+a{
+   display: block;
+   height: 220px;;
+}
+
+/* /////////////////////////// */
+/* End of Mohammad Part  */
+
+
+
+
+
+
+
+
+/* //////////////////////////// */
+/* Amir Part  */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Big Section */
+.main-a {
+    position: relative;
+    overflow: hidden;
+    width: 100vw;
+    height: 400vh;
+    background-size: cover;
+    background: #b8e994;
+}
+
+
+/* hiiden input for check menu */
+.toggle-a>input {
+    display: none;
+}
+
+
+/* Menu */
+.nav-a {
+    position: absolute;
+    width: 65vw;
+    height: 72px;
+    background-color: rgba(255, 0, 0, 0);
+    right: -65vw;
+    transition: 2s;
+    font-size: 20px;
+    margin-top: 50px;
+    border-left: 6px solid black;
+}
+
+.nav-a>ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 80px;
+}
+
+.nav-a>ul>li {
+    /* display: inline; */
+    text-align: center;
+    float: left;
+    width: 23%;
+    padding-top: 22px;
+}
+
+.nav-a>ul>li>a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* Hover Menu */
+.nav-a>ul>li:hover {
+    background-color: #1e90ff;
+    height: 50px;
+}
+.nav-a>ul>li>a:hover {
+    color: black;
+    font-size: 22px;
+    display: block;
+}
+/* End of Menu */
+
+
+
+/* Logo */
+.logo {
+    position: absolute;
+    width: 18vw;
+    height: 40px;
+}
+
+.logo>img {
+    width: 18vw;
+    height: 180px;
+    margin-left: 20%;
+    margin-top: 10px;
+}
+/* end of Logo */
+.main-a>label {
+    right: 0;
+    font-size: 25px;
+}
+
+.main-a i {
+    font-size: 30px;
+    position: absolute;
+    right: 8px;
+    top: 71px;
+}
+
+.toggle-a>input:checked+.nav-a {
+    right: 0px;
+    transition: all 4s;
+}
+
+label>.fa-times {
+    visibility: hidden;
+}
+
+.toggle-a>input:checked~label>.fa-times {
+    visibility:visible;
+}
+
+.toggle-a>input:checked~label>.fa-caret-left {
+    visibility: hidden;
+
+}
+@media only screen and (max-width:600px){
+    .logo{
+        position: absolute;
+        /* width: 100vw; */
+        left: 35%;
+        /* right: 50%; */
+        transform: translate(-50% -50%);
+    }
+    .logo>img {
+        width: 25vw;
+        height: 25vh;
+    }
+    .nav-a {
+        position: absolute;
+        width: 100vw;
+        height: 75vh;
+        background-color: rgba(255, 0, 0, 0);
+        right: -101vw;
+        transition: 1s;
+        font-size: 25px;
+        margin-top: 25vh;
+        border: none;
+    }
+    .nav-a>ul {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    
+    .nav-a>ul>li {
+        text-align: center;
+        width: 100%;
+        left: 50%;
+        right: 50%;
+        transform: translate(-50% 50%);
+    }
+    
+    .nav-a>ul>li>a {
+        display: block;
+        color: white;
+        text-decoration: none;
+        font-size: 45px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 40px;
+    }
+    .nav-a>ul>li>a:hover {
+        color: slateblue;
+        font-size: 45px;
+    }
+
+}
+.footer-a{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(252, 252, 252, 0.048);
+  color: white;
+  text-align: center;
+}
+
+
+
+/* /////////////////// */
+/* End of Amir Part  */
+
+
+
+/* //////////////////////// */
+/* Hossein Part  */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  .holder-h {
+    position: relative;
+    /* overflow: hidden; */
+    margin-top: 100vh;
+    margin-left: 5%;
+    width: 90%;
+    height: 120vh;
+  }
+  
+  .flip-container {
+    position: absolute;
+    perspective: 1500px;
+    float: left;
+    margin-left: 9%;
+    margin-top: 5vh;
+  }
+  .flip-container:hover .flipper,
+  .flip-container.hover .flipper {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-container,
+  .front,
+  .back {
+    width: 20%;
+    height: 270px;
+    border-radius: 5%;
+  }
+  
+  .flipper {
+    transition: 1.6s;
+    transform-style: preserve-3d;
+    position: relative;
+    height: 400px;
+  }
+  .front,
+  .back {
+    backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+  .front {
+    background-color: white;
+    z-index: 2;
+    transform: rotateY(0deg);
+  }
+  .back {
+    background-color: #badc58;
+    transform: rotateY(180deg);
+  }
+  .front > h1 {
+    font-size: 60px;
+    margin-top: 47%;
+    color: rgb(224, 68, 68);
+    display: block;
+    /* color: whitesmoke; */
+    text-align: center;
+    align-items: center;
+  }
+  .back > p {
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    align-items: center;
+    font-size: 20px;
+    margin-top: 25%;
+    padding: 5px;
+  }
+  .im1 {
+    position: absolute;
+  
+    background: url(./image/html5.png) no-repeat;
+    background-size: 230% 270px;
+    background-position: center;
+  }
+  .im2 {
+    position: absolute;
+  
+    background: url(./image/css3.jpg) no-repeat;
+    background-size: 180% 270px;
+    background-position: center;
+  }
+  .im3 {
+    position: absolute;
+  
+    background: url(./image/javascript.jpg) no-repeat;
+    background-size: 115% 270px;
+    background-position: center;
+  }
+  .im4 {
+    position: absolute;
+  
+    background: url(./image/jquery2.jpg) no-repeat;
+    background-size: 170% 270px;
+    background-position: center;
+  }
+  .im5 {
+    position: absolute;
+    background: url(./image/react.jpg) no-repeat;
+    background-size: 190% 270px;
+    background-position: center;
+  }
+  .im6 {
+    position: absolute;
+    background: url(./image/nodejs.png) no-repeat;
+    background-size: 180% 270px;
+    background-position: center;
+  }
+  .im3 > h1 {
+    margin-top: 30% !important;
+  }
+  .bigi-h {
+    position: relative;
+    color: #badc58;
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    top: 2%;
+  }
+  .p11 {
+    top: 10vh;
+    left: 2%;
+  }
+  
+  .p12 {
+    top: 10vh;
+    left: 30%;
+  }
+  .p13 {
+    top: 10vh;
+    left: 60%;
+  }
+  .p14 {
+    top: 65vh;
+    left: 2%;
+  }
+  
+  .p15 {
+    top: 65vh;
+    left: 30%;
+  }
+  .p16 {
+    top: 65vh;
+    left: 60%;
+  }
+  @media only screen and (max-width: 1100px) {
+      .holder-h {
+        position: relative;
+        /* overflow: hidden; */
+        /* margin-top: 2vh;
+        margin-left: 0; */
+        width: 100%;
+        height: auto;
+      }
+      .flip-container {
+        width: 25% !important;
+      }
+    
+      .p11 {
+        top: 10vh;
+        left: 5%;
+      }
+      
+      .p12 {
+        top: 10vh;
+        left: 50%;
+      }
+      .p13 {
+        top: 32vh;
+        left: 5%;
+      }
+      .p14 {
+        top: 32vh;
+        left: 50%;
+      }
+      
+      .p15 {
+        top: 54vh;
+        left: 5%;
+      }
+      .p16 {
+        top: 54vh;
+        left: 50%;
+      }
+    }
+  
+    
+  
+  @media only screen and (max-width: 600px) {
+    .holder-h {
+      position: relative;
+      /* overflow: hidden; */
+      /* margin-top: 2vh;
+      margin-left: 0; */
+      width: 100%;
+      height: auto;
+    }
+    .flip-container {
+      width: 60% !important;
+    }
+  
+    .p11 {
+      top: 10vh;
+      left: 10%;
+    }
+    
+    .p12 {
+      top: 61vh;
+      left: 10%;
+    }
+    .p13 {
+      top: 122vh;
+      left: 10%;
+    }
+    .p14 {
+      top: 183vh;
+      left: 10%;
+    }
+    
+    .p15 {
+      top: 244vh;
+      left: 10%;
+    }
+    .p16 {
+      top: 305vh;
+      left: 10%;
+    }
+  }
+
+  
+  /* ////////////////// */
+  /* End of Hossein Part  */
