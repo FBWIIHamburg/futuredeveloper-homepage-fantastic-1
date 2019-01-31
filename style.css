@@ -117,8 +117,6 @@ border-radius: 10px;
 position: relative;
 display: flex;
 flex-direction:row;
-
-
 }
 .contact-container1-m{
    border: 1px solid white;
@@ -192,7 +190,28 @@ a{
    display: block;
    height: 220px;;
 }
-
+@media only screen and (max-width:600px){
+  .contacts-m{
+    font-family: sans-serif;
+    background-color: #333;
+    height: 900px;
+    margin: 60px auto;
+    color: white;  
+    list-style: none; 
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    flex-direction:column;
+    }
+    iframe{
+      position: absolute;
+      width: 95%;
+      height: 220px;;
+      top: 150px;
+      left: 10px; 
+      border-radius: 20px;     
+   }
+}
 /* /////////////////////////// */
 /* End of Mohammad Part  */
 
@@ -222,7 +241,7 @@ body {
     position: relative;
     overflow: hidden;
     width: 99vw;
-    height: 400vh;
+    height: 500vh;
   }
 
 
@@ -275,16 +294,6 @@ body {
 }
 
 
-/* Hover Menu */
-/* .nav-a>ul>li:hover {
-    background-color: #1e90ff;
-    height: 50px;
-}
-.nav-a>ul>li>a:hover {
-    color: black;
-    font-size: 22px;
-    display: block;
-} */
 /* End of Menu */
 
 
@@ -314,6 +323,7 @@ body {
     right: 20px;
     top: 10px;
     transform: rotate(-45deg);
+    z-index: 400;
 }
 .holdi-h{
   position: fixed;
@@ -323,6 +333,8 @@ body {
   height: 100px;
   background-color: aliceblue;
   border-radius: 50%;
+  z-index: 400;
+
 }
 
 .toggle-a>input:checked+.nav-a {
@@ -372,10 +384,10 @@ label>.fa-times {
 }
 .cont-h{
   position: absolute;
-  width: 80vw;
+  width: 100%;
   height: 80vh;
   top: 10vh;
-  left: 10vw;
+  
 }
 .hh1{
   position: absolute;
@@ -385,30 +397,14 @@ label>.fa-times {
   font-family: cripster;
   width: 100%;
   top: 20vh;
-  left: 10vw;
+  /* left: 10vw; */
   font-size: 60px;
   animation: one1 ;
-  animation-duration: 0.1s;
+  animation-duration: 0.7s;
   animation-delay: 0.5s;
   animation-fill-mode: backwards;
   z-index: 1;
-}
-
-.hh2{
-  position: absolute;
-  cursor: default;
-
-  color: #55efc4		;
-  /* -webkit-text-stroke: 1px #74b9ff; */
-  font-family: cripster;
-  width: 100%;
-  top: 34vh;
-  left: 30vw;
-  font-size: 60px;
-  animation: one2 ;
-  animation-duration: 0.1s;
-  animation-delay: 1s;
-  animation-fill-mode: backwards;
+  text-align: center;
 }
 .hh3{
   position: absolute;
@@ -419,25 +415,27 @@ label>.fa-times {
   font-family: cripster;
   width: 100%;
   top: 45vh;
-  left: 25vw;
+  /* left: 25vw; */
   font-size: 60px;
+  text-align: center;
+
   animation: one3 ;
-  animation-duration: 0.1s;
-  animation-delay: 2s;
+  animation-duration: 0.7s;
+  animation-delay: 1s;
   animation-fill-mode: backwards;
 }
 @keyframes one1 {
-0% {     left: -50vw;
+0% {     left: -1000vw;
 }
-100% {    left: 5vw;
+100% {    left: 0;
 }
 }
 
-  @keyframes one3 {
-      0% {     left: -50vw;
-      }
-      100% {    left: 30vw;
-      }
+@keyframes one3 {
+ 0% {     left: -1000vw;
+    }
+100% {    left: 0;
+   }
       }
 /* end of my chenge h */
 @media only screen and (max-width:600px){
@@ -451,20 +449,14 @@ label>.fa-times {
 }
     .logo{
         position: absolute;
-        /* width: 100vw; */
-        left: 35%;
-        /* right: 50%; */
-        transform: translate(-50% -50%);
+        left: 30%;
     }
-    .logo>img {
-        width: 25vw;
-        height: 25vh;
-    }
+   
     .nav-a {
         position: absolute;
-        width: 100vw;
-        height: 75vh;
-        background-color: rgba(255, 0, 0, 0);
+        width: 100%;
+        height: 100vh;
+        background-color: rgba(8, 8, 8, 0.205);
         right: -99vw;
         transition: 1s;
         font-size: 25px;
@@ -673,6 +665,12 @@ label>.fa-times {
     left: 60%;
   }
   @media only screen and (max-width: 1100px) {
+    .main-a {
+      position: relative;
+      overflow: hidden;
+      width: 99vw;
+      height: 500vh;
+    }
     .holder-h {
       position: relative;
       /* overflow: hidden; */
@@ -724,43 +722,86 @@ label>.fa-times {
     
   
   @media only screen and (max-width: 600px) {
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      box-sizing: border-box;
+      position: relative;
+      background-attachment: fixed !important;
+      background-size: cover !important;
+      background: url(./image/back.jpg) no-repeat;
+  }
+  .hh1{
+    position: absolute;
+    cursor: default;
+    color:#55efc4		;
+    font-family: cripster;
+    width: 100%;
+    top: 20vh;
+    font-size: 60px; 
+  }
+  .hh3{
+    position: absolute;
+    cursor: default;
+    color: #55efc4;
+    font-family: cripster;
+    width: 100%;
+    top: 50vh;
+    font-size: 60px;
+  } 
+  .main-a {
+    position: relative;
+    overflow: hidden;
+    width: 99vw;
+    height: 650vh;
+    background-color: transparent !important;
+  }
+   
+    .flip-container,
+  .front,
+  .back {
+    width: 200px !important;
+    height: 270px;
+    border-radius: 5%;
+    margin: 0 !important;
+  }
     .holder-h {
       position: relative;
-      /* overflow: hidden; */
-      /* margin-top: 2vh;
-      margin-left: 0; */
       width: 100%;
       height: 360vh;
+      margin-left: 0;
+     text-align: center;
+
     }
-    .flip-container {
-      width: 60% !important;
-    }
+    /* .flip-container {
+      } */
   
     .p11 {
-      top: 10vh;
-      left: 10%;
+      top: 20vh;
+      left: 30%;
     }
     
     .p12 {
-      top: 61vh;
-      left: 10%;
+      top: 71vh;
+      left: 30%;
     }
     .p13 {
       top: 122vh;
-      left: 10%;
+      left: 30%;
     }
     .p14 {
       top: 183vh;
-      left: 10%;
+      left: 30%;
     }
     
     .p15 {
       top: 244vh;
-      left: 10%;
+      left: 30%;
     }
     .p16 {
       top: 305vh;
-      left: 10%;
+      left: 30%;
     }
   }
 
