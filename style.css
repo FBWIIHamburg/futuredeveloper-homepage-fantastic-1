@@ -111,7 +111,8 @@ animation: react 9s 0s;
 /* the start of contact section */
 
 .contacts-m{
-   
+
+background-color:rgba(51, 51, 51, 0.815);
 font-family: sans-serif;
 width: 80%;
 color: white;  
@@ -128,7 +129,6 @@ margin-left: 10%;
    flex:1;
    flex-direction: row;
   text-align: center;
-<<<<<<< HEAD
   background-color: rgba(51, 51, 51, 0.815);
   border-radius: 10px;
   
@@ -138,10 +138,6 @@ margin-left: 10%;
   margin-right: 2px;
   margin-left: 2px;
  
-=======
-  border-right: 1px solid white;
-
->>>>>>> 9a55d4317486b31b03a2f8db22836a582052da27
 }
 .contactdci{
    margin-top: 30px;  
@@ -150,15 +146,11 @@ margin-left: 10%;
    flex-direction: row;
    text-align: center;
    flex:1;
-<<<<<<< HEAD
    background-color:  rgba(51, 51, 51, 0.753);
    border-radius: 10px;
    
    
    
-=======
-   border-left: 1px solid white;
->>>>>>> 9a55d4317486b31b03a2f8db22836a582052da27
 }
 iframe{
    position: absolute;
@@ -219,14 +211,10 @@ iframe{
    margin-right: 1px;
    margin-left: 1px;
 }
-<<<<<<< HEAD
 .a-m{
    display: block;
    height: 220px;
 }
-=======
- 
->>>>>>> 9a55d4317486b31b03a2f8db22836a582052da27
 @media only screen and (max-width:600px){
   .contacts-m{
     font-family: sans-serif;
