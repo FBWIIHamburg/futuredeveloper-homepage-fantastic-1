@@ -199,54 +199,98 @@
   left: 0 !important;
 }
 .amir {
-  flex: 1;
-  height: 230px;
+  flex: 150px;
+  height: 150px;
   background-color: aquamarine;
-  border-radius: 20px;
-  margin-right: 1px;
-  margin-left: 1px;
-  background-image: url("./image/squirrl.jpg");
+  border-radius: 50%;
+  margin-right: 2%;
+  margin-left: 2%;
+  background-image: url("./image/amir.jpeg");
   background-position: center;
-  background-size: center;
+  background-size: cover;
+  overflow: hidden;
 }
 .mohamad {
-  flex: 1;
-  height: 230px;
+  flex: 150px;
+  height: 150px;
   background-color: rgb(104, 175, 151);
-  border-radius: 20px;
-  margin-right: 1px;
-  margin-left: 1px;
-  background-image: url("./image/racoon.jpg");
+  border-radius: 50%;
+  margin-right: 2%;
+  margin-left: 2%;
+  background-image: url("./image/mohamad.jpeg");
   background-position: center;
+  background-size: cover;
   background-size: center;
-  background-size: center;
+  overflow: hidden;
 }
 .hussin {
-  flex: 1;
-  height: 230px;
-  background-image: url("./image/coala.jpg");
+  flex: 150px;
+  height: 150px;
+  background-image: url("./image/hossein.jpg");
   background-position: center;
-  background-size: center;
-  border-radius: 20px;
-  margin-right: 1px;
-  margin-left: 1px;
+  background-size: cover;
+  border-radius: 50%;
+  margin-right: 2%;
+  margin-left: 2%;
+  overflow: hidden;
 }
 .teamimg > div > div > a {
   display: block;
   text-decoration: none;
   color: orange;
-  border-radius: 10%;
+  font-size: 35px;
+
 }
 .teamimg > div > div {
   visibility: hidden;
+  width: 0%;
+  height: 150px;
+
 }
-.teamimg:hover div > div {
+.amir>div>a>i{
+margin-top: 30px;
+}
+.amir:hover div {
   visibility: visible;
+  background-color: #0d0d0e5b;
+  height: 150px;
+  width: 100%;
   color: red;
   font-size: 25px;
-  margin-top: 25px;
   text-decoration: none;
+  transition: all 0.3s;
 }
+.mohamad>div>a>i{
+  margin-top: 30px;
+  }
+  .mohamad:hover div {
+    visibility: visible;
+    background-color: #0d0d0e5b;
+    height: 150px;
+    width: 100%;
+    color: red;
+    font-size: 25px;
+    text-decoration: none;
+    transition: all 0.3s;
+  }
+  .hussin>div>a>i{
+    margin-top: 30px;
+    }
+    .hussin:hover div {
+      visibility: visible;
+      background-color: #0d0d0e5b;
+      height: 150px;
+      width: 100%;
+      color: red;
+      font-size: 25px;
+      text-decoration: none;
+      transition: all 0.3s;
+    }
+/* @keyframes hovi{
+0%{
+  width: 0%;
+}
+} */
 @media only screen and (max-width: 600px) {
   .skills-m {
     width: 90%;
@@ -359,7 +403,7 @@ body {
   font-size: 25px;
 }
 
-.main-a i {
+.menuopen-a>i {
   font-size: 30px;
   position: fixed;
   right: 20px;
@@ -480,7 +524,7 @@ label > .fa-times {
     position: relative;
     overflow: hidden;
     width: 100vw;
-    height: 600vh;
+    height: 740vh !important;
     background-size: cover;
     background: #b8e994;
   }
