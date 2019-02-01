@@ -410,7 +410,7 @@ body {
   top: -50px;
   width: 100px;
   height: 100px;
-  background-color: aliceblue;
+  background-color:  #55efc4;
   border-radius: 50%;
   z-index: 400;
 }
@@ -466,11 +466,11 @@ label > .fa-times {
   position: absolute;
   cursor: default;
   color: #55efc4;
+  text-shadow: 5px 5px 5px black;
   /* -webkit-text-stroke: 1px black; */
   font-family: cripster;
   width: 100%;
   top: 20vh;
-  /* left: 10vw; */
   font-size: 60px;
   animation: one1;
   animation-duration: 0.7s;
@@ -480,6 +480,7 @@ label > .fa-times {
   text-align: center;
 }
 .hh3 {
+  text-shadow: 5px 5px 5px black;
   position: absolute;
   cursor: default;
   color: #55efc4;
@@ -488,7 +489,6 @@ label > .fa-times {
   top: 45vh;
   font-size: 60px;
   text-align: center;
-
   animation: one3;
   animation-duration: 0.7s;
   animation-delay: 1s;
@@ -638,15 +638,6 @@ label > .fa-times {
   background-color: #badc58;
   transform: rotateY(180deg);
 }
-.front > h1 {
-  font-size: 60px;
-  margin-top: 47%;
-  color: rgb(224, 68, 68);
-  display: block;
-  /* color: whitesmoke; */
-  text-align: center;
-  align-items: center;
-}
 .back > p {
   display: block;
   color: whitesmoke;
@@ -701,7 +692,8 @@ label > .fa-times {
 }
 .bigi-h {
   position: relative;
-  color: #badc58;
+  color: #e04a1c;
+  text-shadow: 5px 5px 5px rgb(8, 8, 8);
   width: 100%;
   text-align: center;
   font-size: 40px;
