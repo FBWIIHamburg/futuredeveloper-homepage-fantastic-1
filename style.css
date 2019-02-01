@@ -286,11 +286,7 @@ margin-top: 30px;
       text-decoration: none;
       transition: all 0.3s;
     }
-/* @keyframes hovi{
-0%{
-  width: 0%;
-}
-} */
+
 @media only screen and (max-width: 600px) {
   .skills-m {
     width: 90%;
@@ -313,7 +309,7 @@ margin-top: 30px;
     position: absolute;
     width: 96%;
     height: 230px;
-    top: 250px;
+    top: 150px;
     left: 10px;
     border-radius: 20px;
   }
@@ -339,7 +335,7 @@ body {
   position: relative;
   overflow: hidden;
   width: 99vw;
-  height: 500vh;
+  height: 410vh;
 }
 /* hiiden input for check menu */
 .toggle-a > input {
@@ -388,15 +384,12 @@ body {
 /* Logo */
 .logo {
   position: absolute;
-  width: 100px;
-  height: 100px;
-}
-.logo > img {
   width: 150px;
   height: 150px;
-  margin-left: 20%;
-  margin-top: 10px;
+  background: url(./image/logo.png) no-repeat;
+  background-size: cover;
 }
+
 /* end of Logo */
 .main-a > label {
   right: 0;
@@ -530,7 +523,7 @@ label > .fa-times {
   }
   .logo {
     position: absolute;
-    left: 30%;
+    left: 40%;
   }
 
   .nav-a {
