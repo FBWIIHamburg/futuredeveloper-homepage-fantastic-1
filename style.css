@@ -168,6 +168,7 @@
   background-color: rgba(51, 51, 51, 0.815);
   border-radius: 10px;
   margin-bottom: 15px;
+  
 }
 .iframe-m {
   position: absolute;
@@ -189,7 +190,7 @@
   flex: 1;
 }
 .teamimg {
-  margin-top: 60px;
+  margin-top: 66px;
   display: flex;
   flex-direction: row;
 }
@@ -200,9 +201,9 @@
 }
 .amir {
   flex: 150px;
-  height: 150px;
+  height: 222px;
   background-color: aquamarine;
-  border-radius: 50%;
+  border-radius: 10%;
   margin-right: 2%;
   margin-left: 2%;
   background-image: url("./image/amir.jpeg");
@@ -212,9 +213,9 @@
 }
 .mohamad {
   flex: 150px;
-  height: 150px;
+  height: 222px;
   background-color: rgb(104, 175, 151);
-  border-radius: 50%;
+  border-radius: 10%;
   margin-right: 2%;
   margin-left: 2%;
   background-image: url("./image/mohamad.jpeg");
@@ -222,22 +223,24 @@
   background-size: cover;
   background-size: center;
   overflow: hidden;
+  
 }
 .hussin {
   flex: 150px;
-  height: 150px;
+  height: 222px;
   background-image: url("./image/hossein.jpg");
-  background-position: center;
+  background-position: top;
   background-size: cover;
-  border-radius: 50%;
+  border-radius: 10%;
   margin-right: 2%;
   margin-left: 2%;
   overflow: hidden;
 }
+
 .teamimg > div > div > a {
   display: block;
   text-decoration: none;
-  color: orange;
+  color: lightgreen;
   font-size: 35px;
 
 }
@@ -253,7 +256,7 @@ margin-top: 30px;
 .amir:hover div {
   visibility: visible;
   background-color: #0d0d0e5b;
-  height: 150px;
+  height: 230px;
   width: 100%;
   color: red;
   font-size: 25px;
@@ -266,7 +269,7 @@ margin-top: 30px;
   .mohamad:hover div {
     visibility: visible;
     background-color: #0d0d0e5b;
-    height: 150px;
+    height: 230px;
     width: 100%;
     color: red;
     font-size: 25px;
@@ -279,7 +282,7 @@ margin-top: 30px;
     .hussin:hover div {
       visibility: visible;
       background-color: #0d0d0e5b;
-      height: 150px;
+      height: 230px;
       width: 100%;
       color: red;
       font-size: 25px;
@@ -312,6 +315,10 @@ margin-top: 30px;
     top: 150px;
     left: 10px;
     border-radius: 20px;
+  }
+  .hussin, .amir, .mohamad{
+    border-radius: 50%;
+
   }
 }
 /* /////////////////////////// */
@@ -410,10 +417,11 @@ body {
   top: -50px;
   width: 100px;
   height: 100px;
-  background-color:  #55efc4;
+  background-color:  #55efc36b;
   border-radius: 50%;
   z-index: 400;
 }
+
 
 .toggle-a > input:checked + .nav-a {
   top: 0;
@@ -520,6 +528,7 @@ label > .fa-times {
     height: 740vh !important;
     background-size: cover;
     background: #b8e994;
+    
   }
   .logo {
     position: absolute;
@@ -630,12 +639,14 @@ label > .fa-times {
   width: 100%;
 }
 .front {
-  background-color: white;
+  /* background-color:rgba(51, 51, 51, 0.815); */
   z-index: 2;
   transform: rotateY(0deg);
+  box-shadow: 2px 4px rgba(51, 51, 51, 0.815);
 }
 .back {
-  background-color: #badc58;
+  background-color:rgba(51, 51, 51, 0.815);
+  box-shadow: 2px 4px #55efc36b;
   transform: rotateY(180deg);
 }
 .back > p {
