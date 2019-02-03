@@ -168,7 +168,6 @@
   background-color: rgba(51, 51, 51, 0.815);
   border-radius: 10px;
   margin-bottom: 15px;
-  
 }
 .iframe-m {
   position: absolute;
@@ -223,7 +222,6 @@
   background-size: cover;
   background-size: center;
   overflow: hidden;
-  
 }
 .hussin {
   flex: 150px;
@@ -242,16 +240,14 @@
   text-decoration: none;
   color: lightgreen;
   font-size: 35px;
-
 }
 .teamimg > div > div {
   visibility: hidden;
   width: 0%;
   height: 150px;
-
 }
-.amir>div>a>i{
-margin-top: 30px;
+.amir > div > a > i {
+  margin-top: 30px;
 }
 .amir:hover div {
   visibility: visible;
@@ -263,32 +259,32 @@ margin-top: 30px;
   text-decoration: none;
   transition: all 0.3s;
 }
-.mohamad>div>a>i{
+.mohamad > div > a > i {
   margin-top: 30px;
-  }
-  .mohamad:hover div {
-    visibility: visible;
-    background-color: #0d0d0e5b;
-    height: 230px;
-    width: 100%;
-    color: red;
-    font-size: 25px;
-    text-decoration: none;
-    transition: all 0.3s;
-  }
-  .hussin>div>a>i{
-    margin-top: 30px;
-    }
-    .hussin:hover div {
-      visibility: visible;
-      background-color: #0d0d0e5b;
-      height: 230px;
-      width: 100%;
-      color: red;
-      font-size: 25px;
-      text-decoration: none;
-      transition: all 0.3s;
-    }
+}
+.mohamad:hover div {
+  visibility: visible;
+  background-color: #0d0d0e5b;
+  height: 230px;
+  width: 100%;
+  color: red;
+  font-size: 25px;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+.hussin > div > a > i {
+  margin-top: 30px;
+}
+.hussin:hover div {
+  visibility: visible;
+  background-color: #0d0d0e5b;
+  height: 230px;
+  width: 100%;
+  color: red;
+  font-size: 25px;
+  text-decoration: none;
+  transition: all 0.3s;
+}
 
 @media only screen and (max-width: 600px) {
   .skills-m {
@@ -316,9 +312,10 @@ margin-top: 30px;
     left: 10px;
     border-radius: 20px;
   }
-  .hussin, .amir, .mohamad{
+  .hussin,
+  .amir,
+  .mohamad {
     border-radius: 50%;
-
   }
 }
 /* /////////////////////////// */
@@ -403,7 +400,7 @@ body {
   font-size: 25px;
 }
 
-.menuopen-a>i {
+.menuopen-a > i {
   font-size: 30px;
   position: fixed;
   right: 20px;
@@ -417,11 +414,10 @@ body {
   top: -50px;
   width: 100px;
   height: 100px;
-  background-color:  #55efc36b;
+  background-color: #55efc36b;
   border-radius: 50%;
   z-index: 400;
 }
-
 
 .toggle-a > input:checked + .nav-a {
   top: 0;
@@ -528,7 +524,6 @@ label > .fa-times {
     height: 740vh !important;
     background-size: cover;
     background: #b8e994;
-    
   }
   .logo {
     position: absolute;
@@ -536,7 +531,7 @@ label > .fa-times {
   }
 
   .nav-a {
-    position: absolute;
+    position: fixed;
     width: 100%;
     height: 100vh;
     background-color: rgba(8, 8, 8, 0.589);
@@ -645,7 +640,7 @@ label > .fa-times {
   box-shadow: 2px 4px rgba(51, 51, 51, 0.815);
 }
 .back {
-  background-color:rgba(51, 51, 51, 0.815);
+  background-color: rgba(51, 51, 51, 0.815);
   box-shadow: 2px 4px #55efc36b;
   transform: rotateY(180deg);
 }
